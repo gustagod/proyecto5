@@ -1,0 +1,154 @@
+.poke__div {
+
+    right: 10%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poke__red {
+    background-color: red;
+    width: 100vw;
+    height: 40px;
+
+}
+
+.poke__black {
+    background-color: black;
+    width: 100vw;
+    height: 40px;
+}
+
+.poke__top {
+    border: 1px solid black;
+    width: 40vw;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.poke__article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.poke__img {
+    width: 20vw;
+}
+
+.poke__article2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.poke__sectionType {
+    margin: 2rem;
+    text-align: center;
+}
+
+.sectionType__ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.sectionType__li {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.poke__sectionAbilities {
+    margin: 2rem;
+    text-align: center;
+}
+
+.sectionAbilities__ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.sectionAbilities__li {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+
+.poke__sectionStats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.sectionStats__h3{
+    margin: 1rem;
+    text-align: center;
+}
+
+.sectionStats__ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sectionStats__li{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionStats__name{
+    margin-left: 1rem;
+}
+
+.sectionStats__base{
+    margin-right: 1rem;
+}
+
+
+
+.poke__sectionMoves {
+    border: 1px solid black;
+    width: 40vw;
+    border-radius: 1rem;
+
+}
+
+.sectionMoves__h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.sectionMoves__ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.sectionMoves__li {
+    margin: 0.5rem;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(230, 222, 211);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
